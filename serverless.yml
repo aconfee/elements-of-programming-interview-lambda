@@ -7,7 +7,8 @@ provider:
   region: us-east-1
 
 functions:
-  name: elements-of-programming-interviews
+  elements-of-programming-interviews:
+    name: elements-of-programming-interviews
     handler: source/main.lambda_handler
     timeout: 300 # seconds
     memorySize: 128 # mb
