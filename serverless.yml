@@ -1,0 +1,13 @@
+service: elements-of-programming-interviews-lambda
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: us-east-1
+
+functions:
+  name: elements-of-programming-interviews
+    handler: source/main.lambda_handler
+    timeout: 300 # seconds
+    memorySize: 128 # mb
