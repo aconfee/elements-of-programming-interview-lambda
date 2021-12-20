@@ -6,8 +6,9 @@ on:
     branches:
       - main
 
+# todo: add caching. Shouldn't have to re-download serverless every time.
 jobs:
-  build-and-deploy:
+  Deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code

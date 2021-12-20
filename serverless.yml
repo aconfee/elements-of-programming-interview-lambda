@@ -1,9 +1,9 @@
-service: elements-of-programming-interviews-lambda
+service: elements-of-programming-interviews
 
 provider:
   name: aws
   runtime: python3.8
-  stage: dev
+  stage: dev # used by default
   region: us-east-1
 
 functions:
